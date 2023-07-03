@@ -1,0 +1,444 @@
+@media screen and (max-width:600px) {
+    #home {
+        background-position: center center;
+    }
+
+    .nav-menu{
+        display: unset;
+    }
+
+    .nav-menu ul{
+        position: absolute;
+        text-align: start;
+        background-color: white;
+        z-index: 5;
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-menu li{
+        text-align: unset;
+        padding: 18px;
+        color: black;
+        display: block;
+    }
+
+    .icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 30px;
+    }
+
+    .icon:hover + ul{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .home-caption {
+        width: 100%;
+    }
+
+    .home-caption h1 {
+        font-size: 50px;
+    }
+
+    #about .container .profile-img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #about .container .profile-img .img {
+        top: 0;
+        left: 0;
+    }
+
+    #about .container .profile-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #about .profile-img .brdr {
+        border: none;
+    }
+
+    #servies .test {
+        width: 90%;
+    }
+
+    #protoflio .container .proto-img {
+        width: 100%;
+    }
+
+    #protoflio .container .proto-img2 {
+        width: 100%;
+    }
+
+
+    #fun-fact .container .members {
+        width: 100%;
+    }
+
+    #client .item-photo {
+        text-align: center;
+        width: 100%;
+    }
+
+    #client .item-photo img {
+        width: 30%;
+    }
+
+    #client .item-content {
+        width: 100%;
+    }
+
+    #client .client-item {
+        width: 90%;
+    }
+
+    .scroll-btn2 {
+        left: 54%
+    }
+
+    #blog .container .blog-item {
+        width: 100%;
+    }
+
+    #blog .container .inner {
+        width: 100%;
+    }
+
+    #contact-us form {
+        width: 80%;
+        margin: auto;
+    }
+
+    #contact-us input {
+        width: 100%;
+        height: 6%;
+        border: 2px solid gray;
+        border-radius: 4px;
+        margin-bottom: 40px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    #home {
+        background-position: center center;
+    }
+
+    .nav-menu ul{
+        position: absolute;
+        text-align: start;
+        background-color: white;
+        z-index: 5;
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+        left: 10%;
+        top: 10%;
+    }
+
+    .nav-menu li{
+        text-align: unset;
+        padding: 18px;
+        color: black;
+        display: block;
+    }
+
+    .icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 30px;
+    }
+
+    .icon:hover + ul{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .home-caption {
+        width: 100%;
+    }
+
+    #about .container .profile-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #about .profile-img .brdr {
+        border: none;
+    }
+
+    #about .container .profile-img .img {
+        top: 0;
+        left: 0;
+    }
+
+    #about .container .profile-text {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #servies .test {
+        width: 50%;
+    }
+
+    #protoflio .container .proto-img {
+        width: 60%;
+    }
+
+    #protoflio .container .proto-img2 {
+        width: 60%;
+    }
+
+
+    #fun-fact .container .members {
+        width: 50%;
+    }
+
+    #client .item-photo {
+        text-align: center;
+        width: 100%;
+    }
+
+    #client .item-content {
+        width: 100%;
+    }
+
+    #client .item-photo img {
+        width: 30%;
+    }
+
+    #client .client-item {
+        width: 70%;
+    }
+
+    .scroll-btn2 {
+        left: 53%
+    }
+
+    #blog .container .blog-item {
+        width: 60%;
+    }
+
+    #blog .container .inner {
+        width: 100%;
+    }
+
+    #contact-us form {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    #home {
+        background-position: center center;
+    }
+
+    .nav-menu ul{
+        position: absolute;
+        text-align: start;
+        background-color: white;
+        z-index: 5;
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+        left: 10%;
+        top: 10%;
+    }
+
+      .nav-menu li{
+        text-align: unset;
+        padding: 18px;
+        color: black;
+        display: block;
+    }
+
+    .icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 30px;
+    }
+
+    .icon:hover + ul{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .home-caption {
+        width: 100%;
+    }
+
+    #about .container .profile-img {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    #about .profile-img .brdr {
+        border: none;
+    }
+
+    #about .container .profile-img .img {
+        top: 0;
+        left: 0;
+    }
+
+    #about .container .profile-text {
+        width: 50%;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+    #servies .test {
+        width: 33.33%;
+    }
+
+    #protoflio .container .proto-img {
+        width: 45%;
+    }
+
+    #protoflio .container .proto-img2 {
+        width: 45%;
+    }
+
+
+    #fun-fact .container .members {
+        width: 20%;
+    }
+
+    #client .item-photo {
+        width: 20%;
+    }
+
+    #client .item-photo img {
+        width: 100%;
+    }
+
+    #client .item-content {
+        width: 80%;
+    }
+
+    #client .client-item {
+        width: 90%;
+    }
+
+    .scroll-btn2 {
+        left: 53%
+    }
+
+    #blog .container .blog-item {
+        width: 90%;
+    }
+
+    #blog .container .inner {
+        width: 33%;
+    }
+
+    #blog .container .blog-item .item-content {
+        padding-left: 10px;
+    }
+
+    #blog .container .blog-item .item-content h3 {
+        font-size: 17px;
+    }
+
+    #contact-us form {
+        width: 80%;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #home {
+        background-position: center center;
+    }
+    
+
+    .icon{
+        display: none;
+    }
+
+    #about .container .profile-img {
+        width: 39%;
+        margin-left: 0;
+    }
+
+
+    #about .container .profile-text {
+        width: 50%;
+    }
+
+
+
+    #servies .test {
+        width: 23%;
+    }
+
+    #protoflio .ovar-layer i {
+        left: 100px;
+        top: 150px;
+    }
+
+    #blog .container .blog-item {
+        width: 100%;
+    }
+
+    #blog .container .inner {
+        width: 33%;
+    }
+
+    #blog .container .blog-item .item-content h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:1201px) {
+
+    #home {
+        background-position: center center;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    #servies .test {
+        width: 20%;
+    }
+
+    #fun-fact .container .members {
+        width: 20%;
+    }
+
+    #blog .container .blog-item {
+        width: 80%;
+    }
+
+    #blog .container .inner {
+        width: 33%;
+    }
+
+}
